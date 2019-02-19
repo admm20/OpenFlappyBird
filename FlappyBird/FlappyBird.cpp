@@ -103,11 +103,11 @@ bool Terrain::CheckCollision(Player &player)
 
 void Application::LoadContent()
 {
-	bgTexture.loadFromFile("bg.png");
-	birdTexture.loadFromFile("bird.png");
-	pipeTexture.loadFromFile("pipe.png");
-	groundTexture.loadFromFile("ground.png");
-	font.loadFromFile("timesbd.ttf");
+	bgTexture.loadFromFile("Content\\bg.png");
+	birdTexture.loadFromFile("Content\\bird.png");
+	pipeTexture.loadFromFile("Content\\pipe.png");
+	groundTexture.loadFromFile("Content\\ground.png");
+	font.loadFromFile("Content\\timesbd.ttf");
 
 }
 
